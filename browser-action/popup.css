@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+body{
+    width: 280px;
+    height: 400px;
+    background-color: rgb(35, 35, 35);
+    color: orange;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    cursor: default;
+    margin: 0;
+    overflow: hidden;
+    user-select: none !important;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    /* box-shadow: 0px 0px 10px 5px rgba(27, 27, 27, 0.5); */
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 50px;
+    /* margin-top: -15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.changelog{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 55px;
+    width: 98.5%;
+    height: 85.8%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 100;
+}
+
+.changelog-title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    position: sticky;
+    top: -10px;
+    background: rgb(35, 35, 35);
+    z-index: 8;
+    width: 100%;
+    box-shadow: 0px 0px 10px 8px rgb(35, 35, 35);
+}
+
+.article{
+    margin-top: 15px !important;
+    border-radius: 10px;
+    width: 90%;
+    text-decoration: none;
+    position: relative;
+    background: rgb(56, 56, 56);
+    box-shadow: 0px 0px 10px rgba(27, 27, 27, 0.5);
+    transition: 0.3s;
+}
+.article:hover{
+    background: rgb(62, 62, 62);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+.article:active{
+    background-color: rgb(90, 89, 89);
+    transition: 0s;
+}
+
+.first-article{
+    margin-top: 0px;
+}
+
+.article-type{
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.article-title{
+    margin-top: -15px;
+    margin-left: 20px;
+    color: white;
+    font-size: large;
+    width: 65%;
+}
+
+.article-date{
+    color: rgb(187, 187, 187);
+    font-size: small;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.article-image{
+    position: absolute;
+    bottom: 15px;
+    right: 12.5px;
+}
+
+#foo{
+    z-index: 1000;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    -moz-transition: transform 1s; 
+    -webkit-transition: transform 1s;  
+    -ms-transition: transform 1s;  
+    -o-transition: transform 1s;  
+    transition: transform 1s;  
+}

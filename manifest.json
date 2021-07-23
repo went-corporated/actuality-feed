@@ -1,0 +1,44 @@
+{
+
+    "manifest_version": 2,
+    "name": "Actuality Feed",
+    "version": "1.0.0.1",
+
+    "description": "Améliore l'apparence de l'Ent.",
+
+    "icons": {
+        "48": "./icons/ent-48.png",
+        "96": "./icons/ent-96.png"
+    },
+
+    "browser_action": {
+        "default_popup": "./browser-action/popup.html"
+    },
+
+    "sidebar_action": {
+        "default_title": "Centre d'aide",
+        "default_panel": "sidebar/sidebar.html",
+        "default_icon": "icons/light/light-help.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "actualityfeed@example.org",
+          "strict_min_version": "91.0"
+        }
+    },
+
+    "commands": {
+        "_execute_sidebar_action": {
+            "suggested_key": {
+                "default": "Ctrl+Q"
+            }
+        }
+    }
+
+}

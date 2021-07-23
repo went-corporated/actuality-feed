@@ -1,0 +1,21 @@
+@keyframes rainbow {
+    0% {
+     background-position:1% 80%
+    }
+    50% {
+     background-position:99% 20%
+    }
+    100% {
+     background-position:1% 80%
+    }
+}
+
+.burger{
+    color: white !important;
+}
+.burger:hover{
+    color: white !important;
+    animation: rainbow 10s infinite;
+    background-image: linear-gradient(124deg,rgb(208, 255, 0),pink,yellow,orange) !important;
+    background-size: 1600% 1600%;
+}

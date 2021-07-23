@@ -1,0 +1,8 @@
+.puceFicheFormatter>li>a{
+    text-decoration: none;
+    color: rgb(150,220,150);
+}
+.puceFicheFormatter>li>a:hover{
+    text-decoration: underline !important;
+    color: rgb(50, 175, 50);
+}

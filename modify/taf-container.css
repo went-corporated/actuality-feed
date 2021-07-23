@@ -1,0 +1,11 @@
+.js-taf-container{
+    transition: 0.3s;
+}
+.js-taf-container:hover{
+    margin-left: 5px;
+    margin-right: -5px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px rgb(219, 219, 219);
+    color: black !important;
+    cursor: pointer !important;
+}

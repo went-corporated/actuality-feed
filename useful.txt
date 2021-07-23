@@ -1,0 +1,10 @@
+"permissions": [
+    "activeTab",
+    "tabs",
+    "webNavigation",
+    "webRequest",
+    "storage",
+    "unlimitedStorage",
+    "menus",
+    "contextMenus"
+],

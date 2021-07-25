@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    font-family: 'Comfortaa-Bold';
+    margin: 0;
+    overflow: hidden;
+    min-width: 640px;
+    min-height: 360px;
+    background-size: cover;
+    background-position: center center;
+    font-size: 100%;
+    display: block;
+}
+
+.background-1{
+    background-color: #490348;
+}
+
+.ui-controller{
+    height: 100%;
+}
+
+.ui-controller.disabled{
+    opacity: 0.25;
+    pointer-events: none;
+}
+
+.ui-controller.hidden{
+    display: none !important;
+}
+
+body a{
+    position: relative;
+}
+
+*:focus{
+    outline: none;
+}
+*:focus::before{
+    content: '';
+    border: 2px solid white;
+    width: calc(100% + 8px); height: calc(100% + 8px);
+    position: absolute;
+    border-radius: 8px;
+    animation: fadeIn .25s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes shrink{
+    from{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.90);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+@keyframes shake{
+    from{
+        transform: rotate(0);
+    }
+    33%{
+        transform: rotate(5deg);
+    }
+    66%{
+        transform: rotate(-5deg);
+    }
+    to{
+        transform: rotate(0);
+    }
+}
+
+@keyframes waveDelay{
+    from{
+        transform: translate(0px, 0px);
+    }
+    5%{
+        transform: translate(0px, -5px);
+    }
+    10%{
+        transform: translate(0px, 5px);
+    }
+    15%{
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes shakeDelay{
+    from{
+        transform: rotate(0);
+    }
+    5%{
+        transform: rotate(5deg);
+    }
+    10%{
+        transform: rotate(-5deg);
+    }
+    15%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url('../fonts/Comfortaa-Bold.woff2') format('woff2'),
+        url('../fonts/Comfortaa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

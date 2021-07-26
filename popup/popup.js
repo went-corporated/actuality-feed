@@ -2,7 +2,7 @@ console.log("popup.js is connected.");
 
 function randomize(min, max) {
     return Math.random() * (max - min) + min;
-  }
+}
 
 function loaderEnding(){
     document.getElementById('loader_alpha').classList.toggle('under-transition-fade');

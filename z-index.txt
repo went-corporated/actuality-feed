@@ -1,3 +1,5 @@
 1 | loader
 2 | loader_alpha
 3 | home
+4 | home_header_banner
+5 | home_header

@@ -9,5 +9,5 @@ function loaderEnding(){
     document.getElementById('home').classList.toggle('open-transition-slide');
 }
 
-let loadingTime = randomize(300, 1000);
+let loadingTime = randomize(300, 750);
 setTimeout(() => { loaderEnding(); }, loadingTime);

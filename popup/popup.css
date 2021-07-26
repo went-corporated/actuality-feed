@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 
+.open-transition-slide{
+    transform: translateX(-100%);
+    transition: .5s;
+}
+
+.under-transition-fade{
+    opacity: .75 !important;
+    transition: 1.5s !important;
+}
+
 *{
     user-select: none;
     font-size: 100%;
@@ -142,12 +152,21 @@ body{
     z-index: 3;
 }
 
-.open-transition-slide{
-    transform: translateX(-100%);
-    transition: .5s;
+#home_header{
+    width: 90%;
+    margin-left: 5%;
+    /* background-color: black; */
+    margin-top: 25px;
 }
 
-.under-transition-fade{
-    opacity: .75 !important;
-    transition: 1.5s !important;
+#home_header_title{
+    margin-top: 10px;
+    color: white;
+    font-size: 35px;
+}
+
+#home_header_infos{
+    color: rgb(240, 240, 240);
+    font-size: 20px;
+    margin-top: -15px;
 }

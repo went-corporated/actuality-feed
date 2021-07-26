@@ -1,44 +1,19 @@
 {
 
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Actuality Feed",
     "version": "1.0.0.0",
-
-    "description": "Améliore l'apparence de l'Ent.",
-
+    "description": "Restez au courant avec notre magnifique popup !",
+    "author": "Went Laboratory",
     "icons": {
         "48": "./icons/ent-48.png",
         "96": "./icons/ent-96.png"
     },
-
-    "browser_action": {
-        "default_popup": "./browser-action/popup.html"
+    "action": {
+        "default_popup": "./popup/popup.html",
+        "default_title": "Actuality Feed\n\nFaire de la pub : eKonnect#7004"
     },
-
-    "sidebar_action": {
-        "default_title": "Centre d'aide",
-        "default_panel": "sidebar/sidebar.html",
-        "default_icon": "icons/light/light-help.png"
-    },
-
     "background": {
-        "scripts": ["background.js"]
-    },
-
-
-    "browser_specific_settings": {
-        "gecko": {
-          "id": "actualityfeed@example.org",
-          "strict_min_version": "91.0"
-        }
-    },
-
-    "commands": {
-        "_execute_sidebar_action": {
-            "suggested_key": {
-                "default": "Ctrl+Q"
-            }
-        }
+        "service_worker": "./background.js"
     }
-
 }

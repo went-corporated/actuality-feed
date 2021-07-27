@@ -3,3 +3,5 @@
 3 | home
 4 | home_header_banner
 5 | home_header
+6 | home_news
+7 | home_alpha

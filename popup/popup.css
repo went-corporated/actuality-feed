@@ -216,17 +216,21 @@ body{
     margin-top: -25px;
     transition: .3s;
     cursor: pointer;
+    border-right: 5px solid blueviolet;
 }
 .home-news-item:hover{
     background-color: rgb(169, 81, 252);
-    transform: translateX(3px);
+    border-right-color: rgb(124, 37, 206);
+}
+.home-news-item:active{
+    border-right-width: 0px;
 }
 
 #home_news>hr{
     width: 80%;
     height: 0px;
     margin-top: 7.5px; margin-bottom: 7.5px;
-    background-color: rgb(0, 0, 0, 0);
+    background-color: rgba(95, 71, 71, 0);
     border: none;
 }
 
@@ -262,4 +266,50 @@ body{
     to{
         z-index: 7;
     }
+}
+
+.news{
+    transition: .5s;
+    position: absolute;
+    top: 0; left: 100%;
+    width: 100%; height: 100%;
+    margin: 0; padding: 0;
+    background-color: white;
+    z-index: 8;
+}
+
+.news-header{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    margin: 0;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center; justify-content: center;
+    box-shadow: 0 0 10px 0 blueviolet;
+}
+
+.news-header-btn-back{
+    position: absolute;
+    top: 0; left: 0;
+    overflow: hidden;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
+.news-header-btn-back:hover{
+    background-color: rgb(119, 28, 204);
+}
+
+.news-header-btn-back>img{
+    width: 32.5px;
+    margin-top: 3.75px;
+    margin-left: 13.75px;
+}
+
+.news-header-title{
+    font-size: 20px;
+    text-align: center;
 }

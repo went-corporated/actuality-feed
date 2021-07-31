@@ -1,12 +1,12 @@
 ::-webkit-scrollbar{
-    width: 5px;
-    background-color: blueviolet;
+    width: 0px;
+    background-color: rgba(137, 43, 226, 0);
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: rgba(255, 255, 255, 0.137);
+    background-color: rgba(0, 0, 0, .5);
 }
 
 ::-webkit-scrollbar-track{
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0);
 }

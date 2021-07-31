@@ -6,8 +6,8 @@
     "description": "Restez au courant avec notre magnifique popup !",
     "author": "Went Laboratory",
     "icons": {
-        "48": "./icons/ent-48.png",
-        "96": "./icons/ent-96.png"
+        "16": "./icons/a.png",
+        "48": "./icons/b.png"
     },
     "action": {
         "default_popup": "./popup/popup.html",

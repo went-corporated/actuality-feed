@@ -57,9 +57,11 @@ document.getElementById('btn_markasread_news001').onclick = function(){
 function displayIsReaded(){
     if (localStorage.getItem("news001") == "true"){
         document.getElementById('text_markasread_news001').innerText = "(lu)";
+        document.getElementById('btn_markasread_news001').classList.add('bg-green');
     }
     else if (localStorage.getItem("news001") == "false"){
         document.getElementById('text_markasread_news001').innerText = "";
+        document.getElementById('btn_markasread_news001').classList.remove('bg-green');
     }
 }
 

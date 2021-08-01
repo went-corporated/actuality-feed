@@ -15,7 +15,7 @@
 }
 
 .contextual-menu-open{
-    transform: translateY(-80px);
+    transform: translateY(-120px);
     transition: .15s ease-out;
 }
 
@@ -57,7 +57,7 @@ body{
 
 #contextual_menu{
     position: absolute;
-    bottom: -80px; left: 0;
+    bottom: -120px; left: 0;
     width: 100%;
     height: auto;
     background-color: white;
@@ -78,11 +78,12 @@ body{
     display: flex;
     align-items: center; justify-content: center;
     text-decoration: none;
-    transition: .15s linear;
+    transition: .0s linear;
 }
 #contextual_menu>a:hover{
     background-color: rgb(209, 234, 255);
     color: black;
+    transition: 0s;
 }
 #contextual_menu>a:active{
     background-color: rgb(108, 189, 255);
@@ -373,6 +374,13 @@ body{
 
 .news-header-btn-mark-as-read{
     transform: translateX(60px);
+}
+
+.bg-green{
+    background-color: rgb(153, 230, 38);
+}
+.bg-green:hover{
+    background-color: rgb(138, 212, 26);
 }
 
 .news-header-btn>img{

@@ -4,6 +4,9 @@
     "version": "1.0.0.0",
     "description": "Outil de communication simple et pratique pour les membres de l'organisation Went Laboratory.",
     "author": "Went Laboratory",
+    "permissions": [
+        "storage"
+    ],
     "icons": {
         "16": "./icons/a.png",
         "48": "./icons/b.png"

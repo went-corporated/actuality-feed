@@ -41,6 +41,7 @@ body{
     min-height: 400px;
     margin: 0; padding: 0;
     border: none;
+    scroll-behavior: smooth;
 }
 
 #ui_controller{
@@ -51,6 +52,7 @@ body{
     margin: 0; padding: 0;
     overflow: hidden;
     border: none;
+    scroll-behavior: smooth;
 }
 
 #contextual_menu{
@@ -302,6 +304,10 @@ body{
     margin-top: -15px;
 }
 
+.home-news-item-infos>span{
+    color: rgb(17, 180, 17);
+}
+
 #home_alpha{
     position: absolute;
     top: 0; left: 0;
@@ -334,6 +340,7 @@ body{
     margin: 0; padding: 0;
     background-color: white;
     z-index: 8;
+    scroll-behavior: smooth;
 }
 
 .news-header{
@@ -348,7 +355,7 @@ body{
     align-items: center; justify-content: center;
 }
 
-.news-header-btn-back{
+.news-header-btn{
     position: absolute;
     top: 0; left: 0;
     overflow: hidden;
@@ -356,11 +363,19 @@ body{
     width: 60px;
     cursor: pointer;
 }
-.news-header-btn-back:hover{
+.news-header-btn:hover{
     background-color: rgb(235, 235, 235);
 }
 
-.news-header-btn-back>img{
+.news-header-btn-back{
+    transform: translateX(0px);
+}
+
+.news-header-btn-mark-as-read{
+    transform: translateX(60px);
+}
+
+.news-header-btn>img{
     width: 32.5px;
     margin-top: 3.75px;
     margin-left: 13.75px;

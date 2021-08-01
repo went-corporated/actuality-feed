@@ -40,3 +40,28 @@ document.getElementById('btn_back_news001').onclick = function(){
 }
 
 setTimeout(() => { loaderEnding(); }, 2500);
+
+// Mark as read.
+document.getElementById('btn_markasread_news001').onclick = function(){
+    if (localStorage.getItem("news001") == "true"){
+        localStorage.setItem("news001", "false");
+    }
+    else{
+        localStorage.setItem("news001", "true");
+    }
+    displayIsReaded();
+}
+// endsection
+
+// Display is readed.
+function displayIsReaded(){
+    if (localStorage.getItem("news001") == "true"){
+        document.getElementById('text_markasread_news001').innerText = "(lu)";
+    }
+    else if (localStorage.getItem("news001") == "false"){
+        document.getElementById('text_markasread_news001').innerText = "";
+    }
+}
+
+displayIsReaded();
+// endsection

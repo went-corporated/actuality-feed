@@ -6,3 +6,5 @@
 6 | home_news
 7 | home_alpha
 8 | news­
+100 000 | contextual_menu_alpha
+100 001 | contextual_menu

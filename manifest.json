@@ -11,7 +11,7 @@
     },
     "action": {
         "default_popup": "./popup/popup.html",
-        "default_title": "Actuality Feed\n\nFaire de la pub : eKonnect#7004"
+        "default_title": "Actuality Feed"
     },
     "background": {
         "service_worker": "./background.js"

@@ -1,5 +1,7 @@
 console.log("popup.js is connected.");
 
+let loaderEnded = false;
+
 function randomize(min, max) {
     return Math.random() * (max - min) + min;
 }
@@ -10,14 +12,17 @@ document.getElementById('ui_controller').oncontextmenu = function(){
 }
 
 function contextualMenu(){
-    document.getElementById('contextual_menu').classList.toggle('contextual-menu-open');
-    document.getElementById('contextual_menu_alpha').classList.toggle('contextual-menu-alpha-open');
+    if (loaderEnded == true){
+        document.getElementById('contextual_menu').classList.toggle('contextual-menu-open');
+        document.getElementById('contextual_menu_alpha').classList.toggle('contextual-menu-alpha-open');
+    }
 }
 
 function loaderEnding(){
     document.getElementById('loader_alpha').classList.toggle('under-transition-fade');
     document.getElementById('home').classList.toggle('open-transition-slide');
     document.getElementById('loader_frame').style = 'transform: translateX(-20%); transition: .5s;';
+    loaderEnded = true;
 }
 
 document.getElementById('btn_news001').onclick = function(){

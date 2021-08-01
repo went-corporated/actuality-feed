@@ -1,9 +1,8 @@
 {
-
     "manifest_version": 3,
     "name": "Actuality Feed",
     "version": "1.0.0.0",
-    "description": "Restez au courant avec notre magnifique popup !",
+    "description": "Outil de communication simple et pratique pour les membres de l'organisation Went Laboratory.",
     "author": "Went Laboratory",
     "icons": {
         "16": "./icons/a.png",

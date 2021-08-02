@@ -5,6 +5,12 @@
     "description": "Outil de communication simple et pratique pour les membres de l'organisation Went Laboratory.",
     "author": "Went Laboratory",
     "permissions": [
+        "activeTab",
+        "tabs",
+        "webNavigation",
+        "webRequest",
+        "storage",
+        "unlimitedStorage",
         "storage"
     ],
     "icons": {

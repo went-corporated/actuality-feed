@@ -39,6 +39,10 @@ body{
     background-color: rgb(31, 31, 31);
     min-width: 250px;
     min-height: 400px;
+    max-width: 251px;
+    max-height: 401px;
+    width: 250px;
+    height: 400px;
     margin: 0; padding: 0;
     border: none;
     scroll-behavior: smooth;
@@ -237,9 +241,33 @@ body{
 }
 
 #home_header_infos{
-    color: rgb(240, 240, 240);
+    color: white;
     font-size: 20px;
     margin-top: -15px;
+}
+
+#home_header_infos>a{
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(137, 43, 226, .568);
+    padding-left: 5px; padding-right: 5px;
+    padding-bottom: 2px; padding-top: 0px;
+    border: none;
+    transition: 0s;
+    transform: translateX(-3px);
+}
+#home_header_infos>a:hover{
+    background-color: rgb(137, 43, 226);
+    padding-left: 7px; padding-right: 7px;
+    padding-bottom: 4px;
+    padding-top: 1.9px;
+    transform: translateY(-2px) translateX(-1px);
+}
+#home_header_infos>a:active{
+    border: 1px solid white;
+    transform: translateY(-3px) translateX(0px);
 }
 
 #home_header_banner{
@@ -359,17 +387,46 @@ body{
 .news-header-btn{
     position: absolute;
     top: 0; left: 0;
-    overflow: hidden;
     height: 40px;
     width: 60px;
     cursor: pointer;
+    z-index: 9;
 }
 .news-header-btn:hover{
     background-color: rgb(235, 235, 235);
 }
+.news-header-btn::before{
+    content: attr(data-tooltip);
+    --scale: 0;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    height: 25px; width: max-content;
+    padding-left: 10px; padding-right: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 2.5px;
+    box-shadow: 0 0 15px 0 rgba(137, 43, 226, .35);
+    transform: translateX(-50%);
+    /* transform: translateX(-50%) scale(var(--scale)); */
+    /* transition: .15s transform;
+    transform-origin: center top; */
+    pointer-events: none;
+    display: none;
+}
+.news-header-btn:hover::before{
+    --scale: 1;
+    display: flex;
+    justify-content: center; align-items: center;
+}
 
 .news-header-btn-back{
     transform: translateX(0px);
+}
+.news-header-btn-back::before{
+    transform: translateX(-25px);
 }
 
 .news-header-btn-mark-as-read{

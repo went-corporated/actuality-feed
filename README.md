@@ -3,4 +3,4 @@ ouverture directement dans Chrome, notification de mise à jour,... Notre add-on
 
 v.1.0.0 (0) Bientôt !!!
 
-Pour tout savoir : https://matrix.to/#/!lxcPRdYLgtJDHXJlWo:matrix.org?via=matrix.org
+Pour tout savoir : (Espace Matrix)[https://matrix.to/#/!lxcPRdYLgtJDHXJlWo:matrix.org?via=matrix.org]

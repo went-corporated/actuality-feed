@@ -246,7 +246,7 @@ body{
     margin-top: -15px;
 }
 
-#home_header_infos>a{
+#home_header_infos_link{
     position: absolute;
     right: 0;
     text-decoration: none;
@@ -258,14 +258,14 @@ body{
     transition: 0s;
     transform: translateX(-3px);
 }
-#home_header_infos>a:hover{
+#home_header_infos_link:hover{
     background-color: rgb(137, 43, 226);
     padding-left: 7px; padding-right: 7px;
     padding-bottom: 4px;
     padding-top: 1.9px;
     transform: translateY(-2px) translateX(-1px);
 }
-#home_header_infos>a:active{
+#home_header_infos_link:active{
     border: 1px solid white;
     transform: translateY(-3px) translateX(0px);
 }

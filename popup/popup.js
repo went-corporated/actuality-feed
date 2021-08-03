@@ -67,17 +67,3 @@ function displayIsReaded(){
 
 displayIsReaded();
 // endsection
-
-var request = new XMLHttpRequest();
-request.open('GET', 'https://version.act-feed.repl.co/version.txt', true);
-request.send(null);
-request.onreadystatechange = function () {
-    if (request.readyState === 4 && request.status === 200) {
-        var type = request.getResponseHeader('Content-Type');
-        if (type.indexOf("text") !== 1) {
-            return request.responseText;
-        }
-    }
-};
-
-console.log("request.responseText: " + request.responseText);

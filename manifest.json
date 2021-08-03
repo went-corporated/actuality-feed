@@ -11,8 +11,9 @@
         "unlimitedStorage"
     ],
     "icons": {
-        "16": "./icons/a.png",
-        "48": "./icons/b.png"
+        "16": "./icons/news-16.png",
+        "48": "./icons/news-48.png",
+        "128": "./icons/news-128.png"
     },
     "action": {
         "default_popup": "./popup/popup.html",

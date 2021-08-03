@@ -5,4 +5,4 @@ v.1.0.0 (0) Bientôt !!!
 
 Plus de fonctionnalités : [Sneak Peek](https://github.com/Went-Laboratory/actuality-feed/projects/1)
 <br>
-Rejoignez notre espace développeurs : [Went Lab sur Matrix](https://matrix.to/#/!lxcPRdYLgtJDHXJlWo:matrix.org?via=matrix.org)
+Rejoignez notre espace développeurs : [Went Laboratory sur Matrix](https://matrix.to/#/!lxcPRdYLgtJDHXJlWo:matrix.org?via=matrix.org)

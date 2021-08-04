@@ -42,7 +42,7 @@ document.getElementById('btn_back_news001').onclick = function(){
 
 document.getElementById('btn_tablecontent_news001').onclick = function(){ document.getElementById('table_content_news001').classList.toggle('table-content-open'); }
 
-setTimeout(() => { loaderEnding(); }, 2500);
+setTimeout(() => { loaderEnding(); }, 3000);
 
 // Mark as read.
 document.getElementById('btn_markasread_news001').onclick = function(){

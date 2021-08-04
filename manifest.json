@@ -3,7 +3,7 @@
     "name": "Actuality Feed",
     "version": "1.0.0.0",
     "version_name": "1.0.0",
-    "description": "Outil de communication simple et pratique pour les membres de l'organisation Went Laboratory.",
+    "description": "Outil de communication simple et pratique pour les membres de l'organisation Went Lab.",
     "author": "Went Laboratory",
     "permissions": [
         "webRequest",

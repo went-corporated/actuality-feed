@@ -4,7 +4,7 @@
     "version": "1.0.0.0",
     "version_name": "1.0.0",
     "description": "Outil de communication simple et pratique pour les membres de l'organisation Went Lab.",
-    "author": "Went Laboratory",
+    "author": "Went Lab",
     "permissions": [
         "webRequest",
         "storage",

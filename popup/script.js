@@ -1,5 +1,10 @@
 console.log("popup.js is connected.");
 
+if (sessionStorage.getItem("welcome-screen") === "true"){
+    document.getElementById('welcome_screen').style = 'display: none;';
+}
+sessionStorage.setItem("welcome-screen", "true");
+
 function randomize(min, max) {
     return Math.random() * (max - min) + min;
 }

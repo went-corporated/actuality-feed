@@ -1,9 +1,13 @@
-![Lol](./icons/news-512.png "image")
+![Lol](./icons/news-240.png "image")
 
 Web Extension.
+
 Compatible navigateurs basés sur Chromium.
+
 Utile pour Went devs.
+
 Date de sortie officiel non définie.
+
 Par *eKonnect*.
 
 v.1.0.0 (0) Bientôt !!!

@@ -1,14 +1,10 @@
 ![Lol](./icons/news-240.png "image")
 
-Web Extension.
-
-Compatible navigateurs basés sur Chromium.
-
-Utile pour Went devs.
-
-Date de sortie officiel non définie.
-
-Par *eKonnect*.
+Web Extension. <br>
+Compatible navigateurs basés sur Chromium. <br>
+Utile pour Went devs. <br>
+Date de sortie officiel non définie. <br>
+Par *eKonnect*. <br>
 
 v.1.0.0 (0) Bientôt !!!
 

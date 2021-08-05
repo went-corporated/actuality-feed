@@ -1,7 +1,10 @@
-![Lol](./icons/news-240.png "image")Lol
+![Lol](./icons/news-512.png "image")
 
-Extension très légère en destination de tous les membres de Went Lab. L'extension Actuality Feed, c'est comme une newsletter en beaucoup plus pratique : pas de mail, 
-ouverture directement dans Chrome, notification de mise à jour,... Notre add-on profite du Manifest V3 (sortie début 2021) qui ajoute des fonctionnalités utiles et plus sûr.
+Web Extension.
+Compatible navigateurs basés sur Chromium.
+Utile pour Went devs.
+Date de sortie officiel non définie.
+Par *eKonnect*.
 
 v.1.0.0 (0) Bientôt !!!
 

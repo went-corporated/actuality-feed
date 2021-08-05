@@ -10,3 +10,5 @@
 ],
 
 setTimeout(() => { document.getElementById('sound_equal_ok').style.backgroundColor = 'white' }, 2000);
+
+backdrop-filter: blur(4px);

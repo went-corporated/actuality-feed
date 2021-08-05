@@ -15,10 +15,13 @@
     height: 40px;
     color: white;
     margin: 0; padding: 0;
+    backdrop-filter: blur(4px);
     background-color: rgb(245, 245, 245);
+    z-index: 9;
     display: flex;
     align-items: center; justify-content: center;
     border: none;
+    box-shadow: 0 1px 1px rgb(219, 219, 219);
 }
 
 .news-header-btn{
@@ -28,7 +31,6 @@
     /* width: 60px; */
     width: 33.3333333333%;
     cursor: pointer;
-    z-index: 9;
     display: flex;
     align-items: center; justify-content: center;
 }
@@ -133,8 +135,7 @@
 
 .news-script{
     position: absolute;
-    top: 40px;
-    left: 0;
+    top: 40px; left: 0;
     width: 100%; height: 100%;
     background-color: white;
     margin: 0; padding: 0;

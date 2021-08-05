@@ -1,7 +1,0 @@
-Actuality Feed v.1.0.0 (0)
-
-[1.0.0] - 2021-08-01
-- Loader à durée déterminée
-- Téléchargement Changelog et A propos via Right Click
-- Liste des news
-- Bar d'outils dans l'interface de lecture

@@ -1,4 +1,4 @@
-[Jenkins](https://img.shields.io/jenkins/build?color=rgb%2831%2C%2031%2C%2031%29&label=Support&logo=Op&logoColor=%23ffffff&style=for-the-badge "gegegrzqer")
+[Lol](https://qastack.fr/static/img/logo.png "image")
 
 Extension très légère en destination de tous les membres de Went Lab. L'extension Actuality Feed, c'est comme une newsletter en beaucoup plus pratique : pas de mail, 
 ouverture directement dans Chrome, notification de mise à jour,... Notre add-on profite du Manifest V3 (sortie début 2021) qui ajoute des fonctionnalités utiles et plus sûr.

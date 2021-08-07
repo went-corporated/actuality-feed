@@ -1,4 +1,4 @@
-![Lol](./icons/news-240.png "image")
+![Logo](./icons/news-240.png "image")
 
 Web Extension. <br>
 Compatible navigateurs basés sur Chromium. <br>

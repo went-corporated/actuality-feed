@@ -27,6 +27,13 @@ function displayIsReaded(){
     else if (localStorage.getItem("news001") == "false"){
         document.getElementById('text_markasread_news001').innerText = "";
     }
+    
+    if (localStorage.getItem("news002") == "true"){
+        document.getElementById('text_markasread_news002').innerText = "(lu)";
+    }
+    else if (localStorage.getItem("news002") == "false"){
+        document.getElementById('text_markasread_news002').innerText = "";
+    }
 }
 
 displayIsReaded();

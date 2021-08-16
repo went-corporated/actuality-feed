@@ -89,6 +89,11 @@
 
 .news-header-btn-mark-as-read{
     transform: translateX(83.3333333333px);
+    border-bottom: 5px solid rgba(153, 230, 38, 0);
+}
+
+.news-header-btn-mark-as-read>img{
+    transform: translateY(2.5px);
 }
 
 .news-header-btn-table-content{
@@ -99,10 +104,12 @@
 }
 
 .bg-green{
-    background-color: rgb(153, 230, 38);
+    /* background-color: rgb(153, 230, 38); */
+    border-bottom: 5px solid rgb(153, 230, 38);
 }
 .bg-green:hover{
-    background-color: rgb(138, 212, 26);
+    /* background-color: rgb(138, 212, 26); */
+    border-bottom: 5px solid rgb(138, 212, 26);
 }
 
 .news-header-btn>img{

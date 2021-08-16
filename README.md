@@ -6,7 +6,7 @@ Utile pour Went devs. <br>
 Date de sortie officiel non définie. <br>
 Par *eKonnect*. <br>
 
-v.1.0.0 (0) Bientôt !!!
+V1 disponible en version stable (release)
 
 Plus de fonctionnalités : [Sneak Peek](https://github.com/Went-Laboratory/actuality-feed/projects/1)
 <br>

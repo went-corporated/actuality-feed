@@ -82,6 +82,7 @@
 
 .news-header-btn-back{
     transform: translateX(0px);
+    transition: .15s;
 }
 .news-header-btn-back::before{
     transform: translateX(-35px);
@@ -99,6 +100,7 @@
 
 .news-header-btn-table-content{
     transform: translateX(166.6666666666666px);
+    transition: .15s;
 }
 .news-header-btn-table-content::before{
     transform: translateX(-86px);

@@ -5,6 +5,7 @@
     "version_name": "1.0.0",
     "description": "Outil de communication simple et pratique pour les membres de l'organisation Went Lab.",
     "author": "Went Lab",
+    "homepage_url": "https://github.com/went-lab/actuality-feed",
     "permissions": [
         "webRequest",
         "storage",

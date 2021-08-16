@@ -89,12 +89,13 @@
 
 .news-header-btn-mark-as-read{
     transform: translateX(83.3333333333px);
-    border-bottom: 5px solid rgba(153, 230, 38, 0);
+    border-bottom: 0px solid rgba(153, 230, 38, 0);
+    transition: .15s;
 }
 
-.news-header-btn-mark-as-read>img{
+/* .news-header-btn-mark-as-read>img{
     transform: translateY(2.5px);
-}
+} */
 
 .news-header-btn-table-content{
     transform: translateX(166.6666666666666px);

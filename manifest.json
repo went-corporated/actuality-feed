@@ -6,6 +6,7 @@
     "description": "Outil de communication simple et pratique pour les membres de l'organisation Went Lab.",
     "author": "Went Lab",
     "homepage_url": "https://github.com/went-lab/actuality-feed",
+    "minimum_chrome_version": "92.0",
     "permissions": [
         "webRequest",
         "storage",

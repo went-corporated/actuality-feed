@@ -1,12 +1,19 @@
-![Logo](./icons/news-240.png "image")
+<!-- ![Logo](./icons/news-240.png "image") -->
 
-Web Extension compatible UNIQUEMENT avec les navigateurs basés sur Chromium (Chrome, Edge, Opera, ...). <br>
-
-V1.1 stable
+Changelog
 -----
 | Version | Nouvelle fonctionnalités | Fonctionnalités supprimées | Bugs fixés |
 |-|-|-|-|
 | 1.1.0   | Panel à news |
+
+<br>
+
+Important
+-----
+1- Web Extension compatible UNIQUEMENT avec les navigateurs basés sur Chromium (Chrome, Edge, Opera, ...).
+<br>2- Il n'y a pas de version bêta.
+
+<br>
 
 Liens utiles
 -----

@@ -4,7 +4,7 @@ Changelog
 -----
 | Version | Nouvelle fonctionnalités | Fonctionnalités supprimées | Bugs fixés |
 |-|-|-|-|
-| 1.1.0   | Panel à news |
+| 1.1.0   | Panel à news | Ecran de bienvenue |
 
 <br>
 

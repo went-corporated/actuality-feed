@@ -6,7 +6,7 @@ V1.1 stable
 ------------
 | Version | Nouvelle fonctionnalités | Fonctionnalités supprimées | Bugs fixés |
 |-|-|-|-|
-| 1.1.0   | Panel à news | Aucune | Aucun |
+| 1.1.0   | Panel à news |
 
 Plus de fonctionnalités : [Sneak Peek](https://github.com/went-lab/actuality-feed/projects/1)
 <br>

@@ -1,11 +1,12 @@
 {
     "manifest_version": 3,
     "name": "Actuality Feed",
-    "version": "1.0.0.0",
-    "version_name": "1.0.0",
+    "version": "1.1.0.2",
+    "version_name": "1.1.0",
     "description": "Outil de communication simple et pratique pour les membres de l'organisation Went Lab.",
     "author": "Went Lab",
     "homepage_url": "https://github.com/went-lab/actuality-feed",
+    "minimum_chrome_version": "92.0",
     "permissions": [
         "webRequest",
         "storage",

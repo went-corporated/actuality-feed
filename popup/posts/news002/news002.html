@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actuality Feed - News002</title>
+    <link rel="stylesheet" href="../../css/post.css">
+    <link rel="stylesheet" href="../../css/scrollbar.css">
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    <div id="ui_controller">
+
+        <div id="contextual_menu">
+            <a id="stats_download" href="../stats.txt" download tabindex="-1"><p>Statistique</p></a>
+            <a id="changelog_download" href="../changelog.txt" download tabindex="-1"><p>Changelog</p></a>
+            <a id="about_download" href="../about.txt" download tabindex="-1"><p>A propos</p></a>
+        </div>
+        <div id="contextual_menu_alpha"></div>
+
+        <div id="news002" class="news">
+            <div class="news-header">
+                
+                <a href="../../popup.html"><div id="btn_back_news002" class="news-header-btn news-header-btn-back" data-tooltip="Retourner à l'accueil">
+                    <img src="../../img/png/left-arrow.png">
+                </div></a>
+
+                <div id="btn_markasread_news002" class="news-header-btn news-header-btn-mark-as-read" data-tooltip="Marquer comme lu">
+                    <img src="../../img/png/check.png">
+                </div>
+
+                <div id="btn_tablecontent_news002" class="news-header-btn news-header-btn-table-content" data-tooltip="Table des matières">
+                    <img src="../../img/png/menu.png">
+                </div>
+
+            </div>
+            <div id="table_content_news002" class="table-content">
+
+                <div class="table-content-text">
+                    <ul>
+                        <li>1 / Pourquoi encrypter ?</li>
+                        <li>2 / Comment encrypter ?</li>
+                        <li>3 / Comment décrypter ?</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="news-script">
+
+                <p class="news-script-title">Cryptage BS1</p>
+                <hr class="news-script-hr">
+                <p class="news-script-content">
+
+                    <b id="news002_1">1 / Pourquoi encrypter ?</b>
+                    <br><br>
+                    Quand on veut parler de quelque chose qui n'est pas forcément secret mais qui ne
+                    concerne qu'un petit groupe de personnes, il existe une technique très simple
+                    pour que personnes sauf les personnes concernées puissent comprendre l'information.
+                    Cette technique, c'est le cryptage BackSlash.
+                    <br>
+                    L'objectif du BS est de faire en sorte qu'une information textuelle soit encryptable
+                    rapidement et décryptable facilement.
+                    <br><br><br>
+
+                    <b id="news002_2">2 / Comment encrypter ?</b>
+                    <br><br>
+                    KCTyBS, le logiciel permettant le cryptage / décryptage mais aussi le développeur du
+                    logiciel (@kct), est simple à utiliser.
+                    <br>
+                    Tout d'abord, commençons par le téléchargement. Téléchargez les fichiers. Aucune
+                    installation nécessaire et ouvrez cryptor.exe.
+                    <br>
+                    Pour encrypter du texte, saisissez du texte ou copier-le (clic droit pour copier ou
+                    ctrl + c) puis appuyez sur entrer.
+                    <br>
+                    Ensuite, indiquez une clé avec un entier (5, 17, 150, ...). Notez : la limite de la clé est
+                    élévée, cependant une clé supérieur à 100 est inutile.
+                    <br>
+                    Sélectionnez la sortie avec les backslashs. Pour plus de sécurité, ajoutez quelques
+                    backslashs en même temps que des slashs. (+2 backslashs = +2 slashs). En effet, une clé
+                    de 5 '\' originel peut être modifiée en 8 '\' et 3 '/'.
+                    <br><br><br>
+
+                    <b id="news002_2">3 / Comment décrypter ?</b>
+                    <br><br>
+                    Comment décrypter cela par exemple : ////\\\\\\Jgnnq§yqtnfù ?
+                    <br>
+                    On commence par copier coller le texte crypté dans le logiciel. Puis on déchiffre la clé :
+                    <br>- 6 backslashs
+                    <br>- 4 slashs
+                    <br>
+                    Le nombre de '\' correspond à la clé. Pour sécuriser encore plus le texte, on ajoute des slashs
+                    et des backslashs. Je vous donne une information : la clé est 2. Conclusion : il y a 2
+                    '\' originels et 4 '\' et '/' de sécurité ! En effet, il faut soustraire les slashs aux backslashs !
+                    <br>
+                    Pour cet exemple, j'ai fais cela pour vous (c'est très simple). Le prochain c'est à vous de le
+                    décrypter !
+                    <br><br><br>
+
+                </p>
+                <!-- <hr class="news-script-hr"> -->
+                <div class="news-script-infos">
+                    <p class="news-script-infos-date">Publié par KCTyBS</p>
+                    <p class="news-script-infos-type">le 16 août 2021</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

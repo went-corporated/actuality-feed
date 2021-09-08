@@ -1,4 +1,4 @@
-let currentVersion = "1.1.0.2";
+let currentVersion = "1.2.0";
 let updateIndicator = document.getElementById('home_header_infos_span');
 let titleHeader = document.getElementById('home_header_title');
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actuality Feed</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div id="ui_controller">
+
+        <div id="contextual_menu">
+            <a id="stats_download" href="../stats.txt" download tabindex="-1"><p>Statistique</p></a>
+            <a id="changelog_download" href="../changelog.txt" download tabindex="-1"><p>Changelog</p></a>
+            <a id="about_download" href="../about.txt" download tabindex="-1"><p>A propos</p></a>
+        </div>
+        <div id="contextual_menu_alpha"></div>
+
+        <div id="news_panel">
+            <div id="content_news_panel">
+                <div id="content_news_panel_navbar"><p>Panels à news</p></div>
+                <div id="content_news_panel_news_list">
+                    <ul>
+                        <li>
+                            <p>Le développement d'EntPp reprend officiellement ! <span class="cnpnl-date">2.9.21</span></p>
+                            <p class="cnpnl-btn-morecontent" id="btn_le_developpement_d_entpp_reprend_officiellement_2921">Lire la suite</p>
+                            <p class="cnpnl-morecontent cnpnl-false" id="text_le_developpement_d_entpp_reprend_officiellement_2921">C'est une très bonne nouvelle pour ceux qui attendent. Cependant, le développement prendra
+                                plus d'un mois, peut-être même que la publication aura lieu après les vacances de la
+                                Toussaint.
+                            </p>
+                        </li>
+                        <li class="cnpnl-last-li">
+                            <p>Barlow est la font officielle de Went Lab. <span class="cnpnl-date">2.9.21</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="../update.js"></script>
+</body>
+</html>

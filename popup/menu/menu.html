@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actuality Feed</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div id="ui_controller">
+
+        <div id="contextual_menu">
+            <a id="stats_download" href="../stats.txt" download tabindex="-1"><p>Statistique</p></a>
+            <a id="changelog_download" href="../changelog.txt" download tabindex="-1"><p>Changelog</p></a>
+            <a id="about_download" href="../about.txt" download tabindex="-1"><p>A propos</p></a>
+        </div>
+        <div id="contextual_menu_alpha"></div>
+
+        <div id="home">
+
+            <div id="home_header">
+                <p id="home_header_title">Actuality Feed</p>
+                <p id="home_header_infos"><span id="home_header_infos_span">&nbsp;</span><a id="home_header_infos_link" href="../popup.html" tabindex="1">Fermer le menu</a></p>
+            </div>
+            <div id="home_header_banner">
+                <!-- <img id="home_header_banner_img" src="./img/jpg/actuality-feed-banner.jpg"> -->
+            </div>
+            <div id="home_news">
+                <a href="../news-panel/news-panel.html" class="home-news-link"><div id="btn_news001" class="home-news-item" tabindex="2">
+                    <p class="home-news-item-title">News Panel</p>
+                </div></a>
+                <hr>
+                <a href="./posts/news001/news001.html" class="home-news-link"><div class="home-news-item" tabindex="3">
+                    <p class="home-news-item-title">Game Area</p>
+                </div></a>
+                <hr>
+                <a href="./posts/news001/news001.html" class="home-news-link"><div class="home-news-item" tabindex="4">
+                    <p class="home-news-item-title">Liens utiles</p>
+                </div></a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="../update.js"></script>
+</body>
+</html>

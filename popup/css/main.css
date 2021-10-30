@@ -7,14 +7,13 @@
 }
 
 .contextual-menu-open{
-    transform: translateY(-120px);
-    transition: .15s ease-out;
+    transform: translateY(-120px) !important;
+    z-index: 100003 !important;
 }
 
 .contextual-menu-alpha-open{
     z-index: 100002 !important;
     background-color: rgba(0, 0, 0, 0.315) !important;
-    transition: .15s ease-out;
 }
 
 *{
@@ -58,9 +57,8 @@ body{
     height: auto;
     background-color: white;
     margin: 0; padding: 0;
-    z-index: 100003;
-    display: none;
-    transition: .15s ease-out;
+    z-index: 0;
+    transition: .15s;
 }
 
 #contextual_menu>a{
@@ -80,8 +78,7 @@ body{
 #contextual_menu>a:hover{
     background-color: rgb(209, 234, 255);
     color: black;
-    text-indent: 6px;
-    transition: .3s;
+    transition: 0s;
 }
 
 #contextual_menu_alpha{
@@ -91,5 +88,5 @@ body{
     background-color: rgba(0, 0, 0, 0);
     margin: 0; padding: 0;
     z-index: 0;
-    transition: .15s ease-out;
+    transition: .15s;
 }

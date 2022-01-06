@@ -2,7 +2,7 @@
 
 Important
 -----
-L'extension n'est plus utile. Le code ne toutefois pas supprimé.
+L'extension n'est plus utile. Le code ne sera toutefois pas supprimé.
 
 <br>
 

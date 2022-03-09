@@ -8,7 +8,7 @@ L'extension n'est plus utile. Le code ne sera toutefois pas supprimé.
 
 Changelog
 -----
-| Version | Nouvelle fonctionnalités | Fonctionnalités supprimées | Bugs fixés |
+| Version | Nouvelles fonctionnalités | Fonctionnalités supprimées | Bugs fixés |
 |-|-|-|-|
 | 1.1.0   | Panel à news | Ecran de bienvenue |
 

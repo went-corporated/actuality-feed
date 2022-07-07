@@ -10,7 +10,7 @@ Changelog
 -----
 | Version | Nouvelles fonctionnalités | Fonctionnalités supprimées | Bugs fixés |
 |-|-|-|-|
-| 1.1.0   | Panel à news | Ecran de bienvenue |
+| 1.1.0   | Panel à news | Splash screen |
 
 <br>
 
